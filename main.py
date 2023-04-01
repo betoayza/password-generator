@@ -26,12 +26,14 @@ while is_running:
 
         elif option == 4:
             new_password = new_password[:16]
+
         else:
             print("\nInvalid option!")
             continue
 
         print("\nSuccessful! New password is:", new_password)
         is_running = False
+        
     except:
         print("\nThat's not a number, ha!")
 
